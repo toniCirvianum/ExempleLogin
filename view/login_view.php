@@ -18,6 +18,13 @@ include('../templates/navbar.php');
     <p>
         Estas registrat? <a href="register_view.php">Registrat</a>
     </p>
+    <p>
+        <?php
+            if (isset($_GET['message'])) {
+                echo "<h1>".$_GET['message']."<h1>";
+            }
+        ?>
+    </p>
 
 </form>
 
