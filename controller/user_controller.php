@@ -26,4 +26,9 @@ function getUserByName ($username) {
     } 
 }
 
+function getLastId() {
+    $lastUser = end($_SESSION['users']);
+    return $lastUser['id'];
+}
+
 ?>

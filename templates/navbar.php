@@ -14,7 +14,8 @@
             <?php
             if (isset($_SESSION['userLogged'])) {
             ?>
-                <li> <a href="../controller/logout_controller.php">logout</a> </li>
+               <li> <a href="../controller/register_view.php">edit user</a> </li>
+               <li> <a href="../controller/logout_controller.php">logout</a> </li>
 
             <?Php    }        ?>
             <?php $url="../view/user.view.php";
